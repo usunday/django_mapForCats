@@ -141,4 +141,4 @@ AUTHENTICATION_BACKENDS = (
     'allauth.account.auth_backends.AuthenticationBackend',
 )
 SITE_ID = 1
-LOGIN_REDIRECT_URL = 'http://127.0.0.1:8000'	### 오류가 나면 홈으로 돌아와라
+LOGIN_REDIRECT_URL = 'http://127.0.0.1:8000/login'	### 오류가 나면 홈으로 돌아와라
